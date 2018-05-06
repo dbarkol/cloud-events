@@ -22,6 +22,7 @@ namespace CloudEventSample.Models
         [JsonProperty("eventTime")]
         public string EventTime { get; set; }
 
+        [JsonProperty("data")]
         public T Data { get; set; }
     }
 }
